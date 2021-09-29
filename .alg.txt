@@ -1,0 +1,25 @@
+
+OPENDIR READDIR STAT - SYSCALL
+1:start
+2:USe opendir sys call to open directory. A dot is given in the parameter to open current directory
+3:Using a vriable of type strct dirent to iterate through the files in the dir using readdir sys call to read files.
+4: Use a variable of type struct stat to get the details of the file.
+5:Pass the file name as parameters to stat system call.
+6:Pont the details of the file.
+6:STOP
+
+READ WRITE CLOSE - SYS call
+1:start 
+2:Open a file using the sys call Open3:it returns -1 if file cant be created or opened if it already exuists
+4:Read the contents from user and write it into the file using write sys call
+5: Read the contents of the file using read sys call6:Print the read file contents
+7:STOP
+
+semaphore
+
+1:START 
+2:Declare the req cariables
+3:Initialize the buffer size and get the maximum item you want to  produve
+4:Get the opyion which youu want to do wither producer consumer or exit from the operation
+4: If you select the producer sgould not prouce the item or otherwise prouce the item and increase the valuie of the buffer
+5:if you sel
